@@ -46,7 +46,7 @@ if (permission === 'ALLOWED') {
 
 # API
 
-##### async wavebox.getPermission
+#### async wavebox.getPermission
 Checks if the extension has permission to interface with Wavebox without showing a user prompt
 
 * **Returns**  one of DEFAULT, ALLOWED, DENIED
@@ -55,7 +55,7 @@ Checks if the extension has permission to interface with Wavebox without showing
 await window.wavebox.getPermission()
 ```
 
-##### async wavebox.requestPermission
+#### async wavebox.requestPermission
 Requests permission to interface with Wavebox by prompting the user. If the extension already has permission, returns immeditately
 
 * **Returns**  one of DEFAULT, ALLOWED, DENIED
@@ -64,7 +64,7 @@ Requests permission to interface with Wavebox by prompting the user. If the exte
 await window.wavebox.requestPermission()
 ```
 
-##### async wavebox.isApp
+#### async wavebox.isApp
 Checks if the current tab is running inside a Wavebox app
 
 * **Returns**  true if we're running within a Wavebox app, false otherwise
@@ -74,7 +74,7 @@ await window.window.wavebox.isApp()
 ```
 
 
-##### async wavebox.setBadgeCount
+#### async wavebox.setBadgeCount
 Sets the unread count on the service for the current tab
 
 * **count (int)** the count to display
@@ -83,7 +83,7 @@ Sets the unread count on the service for the current tab
 await window.wavebox.setBadgeCount(10)
 ```
 
-##### async wavebox.setBadgeHasUnreadActivity
+#### async wavebox.setBadgeHasUnreadActivity
 Sets if the app running for the current tab has unread activity
 
 * **has (bool)** true to show the activity indicator, false to hide
@@ -92,7 +92,7 @@ Sets if the app running for the current tab has unread activity
 await window.wavebox.setBadgeHasUnreadActivity(true)
 ```
 
-##### async wavebox.setTrayMessages
+#### async wavebox.setTrayMessages
 Sets the list of messages in the tray for the current app
 
 * **messages (array)** an array of messages to display to the user
