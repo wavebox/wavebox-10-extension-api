@@ -1,0 +1,23 @@
+{
+  "name": "Facebook badge Wavebox Example",
+  "version": "1.0",
+  "description": "A simple Wavebox extension that provides an unread count for Facebook",
+  "permissions": [],
+  "icons": {
+    "16": "images/icon_16.png",
+    "32": "images/icon_32.png",
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png"
+  },
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [ "*://facebook.com/*", "*://www.facebook.com/*"],
+      "run_at": "document_idle",
+      "js": [
+        "wavebox.js",
+        "facebook_badge.js"
+      ]
+    }
+  ]
+}
