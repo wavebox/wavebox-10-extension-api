@@ -45,7 +45,7 @@ The valid location a tab can appear in the window, either as the primary docked 
 
 Everything in the base [tab type](https://developer.chrome.com/docs/extensions/reference/tabs/#type-Tab)
 
-###### dockedMode
+##### dockedMode
 
 _DockedMode_
 
@@ -53,7 +53,7 @@ _Wavebox 10.99+_
 
 The docked mode of the tab
 
-###### dockedPosition
+##### dockedPosition
 
 _DockedPosition_
 
@@ -61,13 +61,13 @@ _Wavebox 10.99+_
 
 The docked position of the tab
 
-###### dockedBound
+##### dockedBound
 
 _DockedBound_
 
 The docked bound of the tab
 
-###### dockedWaveboxGroupId
+##### dockedWaveboxGroupId
 
 _string_
 
@@ -75,7 +75,7 @@ _Wavebox 10.99+_
 
 The id of the Wavebox group to be used when `dockedMode` is set to `waveboxGroup`.
 
-###### dockedValidLocation
+##### dockedValidLocation
 
 _DockedValidLocation_
 
@@ -83,7 +83,7 @@ _Wavebox 10.99+_
 
 The valid location this tab can appear in the window, either as the primary docked item or the secondary docked item.
 
-###### dockedPrimary
+##### dockedPrimary
 
 _boolean_
 
@@ -91,7 +91,7 @@ _Wavebox 10.99+_
 
 Whether the tab is in the primary docked/split-screen position. When true, indicates that this tab is visible in the window in the docked position.
 
-###### dockedSecondary
+##### dockedSecondary
 
 _boolean_
 
@@ -105,31 +105,31 @@ Whether the tab is in the secondary docked/split-screen position. When true, ind
 
 Everything in the base [tab query method](https://developer.chrome.com/docs/extensions/reference/tabs/#method-query). The queryInfo object also supports
 
-###### dockedMode
+##### dockedMode
 
 _DockedMode_ (Optional)
 
 _Wavebox 10.99+_
 
-###### dockedPosition
+##### dockedPosition
 
 _DockedPosition_ (Optional)
 
 _Wavebox 10.99+_
 
-###### dockedValidLocation
+##### dockedValidLocation
 
 _DockedValidLocation_ (Optional)
 
 _Wavebox 10.99+_
 
-###### dockedWaveboxGroupId
+##### dockedWaveboxGroupId
 
 _string_ (Optional)
 
 _Wavebox 10.99+_
 
-###### dockedPrimary
+##### dockedPrimary
 
 _boolean_ (Optional)
 
@@ -137,7 +137,7 @@ _Wavebox 10.99+_
 
 Only return tabs matching the docked primary position flag
 
-###### dockedSecondary
+##### dockedSecondary
 
 _boolean_ (Optional)
 
@@ -149,19 +149,19 @@ Only return tabs matching the docked secondary position flag
 
 Everything in the base [tab update method](https://developer.chrome.com/docs/extensions/reference/tabs/#method-update). The updateProperties object also supports
 
-###### dockedMode
+##### dockedMode
 
 _DockedMode_ (Optional)
 
 _Wavebox 10.99+_
 
-###### dockedPosition
+##### dockedPosition
 
 _DockedPosition_ (Optional)
 
 _Wavebox 10.99+_
 
-###### dockedValidLocation
+##### dockedValidLocation
 
 _DockedValidLocation_ (Optional)
 
