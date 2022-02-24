@@ -1,12 +1,8 @@
-# Tabs API
-
 For full reference, see the [Tabs API](https://developer.chrome.com/docs/extensions/reference/tabs/). This page documents the additions that Wavebox supports
 
----
+# Types
 
-## Types
-
-#### DockedMode
+## DockedMode
 
 _enum_ "undocked", "group", "window", "waveboxGroup"
 
@@ -21,7 +17,7 @@ has a different behaviour
 * `window`: this tab is the primary tab, within a window
 * `waveboxGroup`: this tab is the primary tab, within a Wavebox Group
 
-#### DockedPosition
+## DockedPosition
 
 _enum_ "left", "right", "top", "bottom", "overlay"
 
@@ -29,7 +25,7 @@ _Wavebox 10.99+_
 
 The position of the tab when using split-screen. This can only be set when the tab also has a `dockedMode` other than `undocked`. Left makes this tab take the left position, top the top position and so forth
 
-#### DockedBound
+## DockedBound
 
 _object of integers_ { lead, top, left, right, bottom }
 
@@ -37,7 +33,7 @@ The position of the split-screen split in the window. The value of each represen
 
 When the `dockedPosition` is set to `overlay`, top, left, right & bottom will be set. Otherwise you lead will be set.
 
-#### DockedValidLocation
+## DockedValidLocation
 
 _enum_ "any", "primaryOnly", "secondaryOnly"
 
@@ -45,7 +41,7 @@ _Wavebox 10.99+_
 
 The valid location a tab can appear in the window, either as the primary docked item or the secondary docked item.
 
-#### Tab
+## Tab
 
 Everything in the base [tab type](https://developer.chrome.com/docs/extensions/reference/tabs/#type-Tab)
 
@@ -103,11 +99,9 @@ _Wavebox 10.99+_
 
 Whether the tab is in the secondary docked/split-screen position. When true, indicates that this tab is visible in the window in the docked position.
 
----
+# Methods
 
-## Methods
-
-#### query
+## query
 
 Everything in the base [tab query method](https://developer.chrome.com/docs/extensions/reference/tabs/#method-query). The queryInfo object also supports
 
@@ -151,7 +145,7 @@ _Wavebox 10.99+_
 
 Only return tabs matching the docked secondary position flag
 
-#### update
+## update
 
 Everything in the base [tab update method](https://developer.chrome.com/docs/extensions/reference/tabs/#method-update). The updateProperties object also supports
 
@@ -173,7 +167,7 @@ _DockedValidLocation_ (Optional)
 
 _Wavebox 10.99+_
 
-## Examples
+# Examples
 
 Examples can be found in the examples folder:
 
