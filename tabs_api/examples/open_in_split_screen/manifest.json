@@ -1,0 +1,27 @@
+{
+  "name": "Open in split screen example",
+  "version": "1.0",
+  "description": "A simple Wavebox extension that when Wavebox is open in split screen mode, links are opened in the other side of the split",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "images/icon_16.png",
+    "32": "images/icon_32.png",
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png"
+  },
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [ "*://wavebox.io/*"],
+      "run_at": "document_idle",
+      "js": [
+        "contentscript.js"
+      ]
+    }
+  ]
+}
