@@ -171,4 +171,4 @@ _Wavebox 10.99+_
 
 Examples can be found in the examples folder:
 
-* **Open in split-screen** [Example](/examples/open_in_split_screen). When Wavebox.io is open in split screen, makes new pages open in the other side of the split
+* **Open in split-screen** [Example](examples/open_in_split_screen). When Wavebox.io is open in split screen, makes new pages open in the other side of the split

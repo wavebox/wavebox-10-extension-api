@@ -108,4 +108,4 @@ if (permission === 'ALLOWED') {
 
 Examples can be found in the examples folder:
 
-* **Facebook Badge** [Example](/examples/facebook_badge_content_script)
+* **Facebook Badge** [Example](examples/facebook_badge_content_script)
