@@ -1,0 +1,12 @@
+{
+  "name": "Chat with brainbox",
+  "version": "1.0",
+  "description": "A simple Wavebox extension that chats with Brainbox",
+  "permissions": [
+    "brainbox"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "manifest_version": 3
+}

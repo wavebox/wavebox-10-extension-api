@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "version": "1",
+  "name": "My testcorp4.pipedrive.com extension",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.testcorp4.pipedrive.com/*"
+      ],
+      "js": [
+        "contentscript.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "waveboxApps"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

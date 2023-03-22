@@ -16,6 +16,7 @@ The best place to get started is by using the excellent documentation on the Chr
 
 [Tabs](/tabs_api) Interact with the tab system, query & update split-screen
 
-## Wavebox content script API
+[WaveboxApps](/wavebox_apps_api) Update unread badges, notifications & more for apps
 
-[Unread badges & notifications](/content_script_api) Update unread badges & notifications
+[Brainbox](/brainbox_api) Interact with Brainbox
+
