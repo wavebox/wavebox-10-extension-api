@@ -49,4 +49,5 @@ Initiate a chat with Brainbox.
 
 Examples can be found in the examples folder:
 
+* **Grammar corrector** [Example](examples/grammar_corrector/). Adds a button to all pages, when clicked it takes the content from the last textarea/input field, asks Brainbox to correct the grammar and replaces the original content in the page
 * **Talk like a pirate** [Example](examples/talk_like_a_pirate). A simple example tells a pirate themed joke in the background page

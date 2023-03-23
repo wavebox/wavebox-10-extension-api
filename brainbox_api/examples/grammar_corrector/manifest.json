@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "version": "1",
+  "name": "Correct your grammar with Brainbox",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "contentscript.js"
+      ]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "brainbox"
+  ]
+}
