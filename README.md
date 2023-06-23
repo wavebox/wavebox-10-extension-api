@@ -14,9 +14,11 @@ The best place to get started is by using the excellent documentation on the Chr
 
 ## Wavebox API additions
 
+[Brainbox](/brainbox_api) Interact with Brainbox
+
+[Firefox ContextualIdentities](/contextual_identities) Use the Firefox contextual identities extension api to interact with Wavebox cookie containers
+
 [Tabs](/tabs_api) Interact with the tab system, query & update split-screen
 
 [WaveboxApps](/wavebox_apps_api) Update unread badges, notifications & more for apps
-
-[Brainbox](/brainbox_api) Interact with Brainbox
 
